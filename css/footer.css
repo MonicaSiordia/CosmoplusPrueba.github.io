@@ -1,0 +1,9 @@
+body {
+	margin: 0;
+}
+
+.footer {
+	background: linear-gradient(to left,#7a09b3,#200260);
+	columns: 2;
+	padding: 8px;
+}

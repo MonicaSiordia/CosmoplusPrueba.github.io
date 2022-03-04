@@ -1,0 +1,130 @@
+@font-face {
+	font-family: advent;
+	src: url('../fonts/advent_regular.ttf') format('truetype');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: advent;
+}
+
+.navegador {
+	padding: 0;
+	margin: 0;
+}
+
+.banner{
+	background: linear-gradient(to left,#7a09b3,#200260);
+	padding: 0;
+	margin: 0;
+}
+
+.buscar{
+	background: linear-gradient(to left,#4b0471,#080354);
+}
+
+.logo {
+	margin-left: 160px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.logo img{
+	width: 300px;
+	height: auto;
+	margin-top: 20px;
+}
+
+.logo p {
+	text-align: left;
+	margin:0;
+}
+
+.div-menu ul.menu{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 30px;
+	left: 33em;
+}
+
+.div-menu li {
+	float: left;
+	margin-left: 5px;
+}
+
+.div-menu ul.menu li img{
+	width: 20px;
+	filter: invert(1);
+}
+
+.div-menu ul.menu li img:hover{
+	filter: invert(0.5);
+}
+
+.menu #boton a, .buscar a{
+	background: #e9f45f;
+	border-radius: 10px;
+	color: #7a09b3;
+}
+
+.menu #boton a:hover, .buscar a:hover {
+	background: #cae50c;
+	border-radius: 10px;
+}
+
+.menu li a{
+	color: #fff;
+	padding: 3px 15px;
+	display: block;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.menu #cuenta a {
+	color: #1eeaf3;
+}
+
+.menu li a:hover, .menu #cuenta a:hover{
+	color: gray;
+}
+
+.buscar {
+	color: #fff;
+	padding: 1px 3px;
+	font-size: 20px;
+	text-decoration: none;
+	padding-left: 160px;
+}
+
+.buscar select {
+	display: block;
+	font-size: 20px;
+	font-family: advent;
+	width: 200px;
+	max-width: 100%;
+	border-radius: .3em;
+	list-style: none;
+}
+
+.buscar #estado {
+	position: absolute;
+	left: 20em;
+	top: 5.5em;
+}
+
+.buscar #sucursal {
+	position: absolute;
+	left: 31em;
+	top: 5.5em;
+}
+
+.buscar a {
+	text-decoration: none;
+	padding: 4px 25px 4px 25px;
+	position: absolute;
+	top: 5.5em;
+	left: 42em;
+}
